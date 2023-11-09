@@ -9,6 +9,13 @@
     --filter-bg-color: #DEEBFF;
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
 .fa-solid {
     color: var(--main-color);
 }
