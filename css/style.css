@@ -18,7 +18,7 @@ nav {
     justify-content: space-between;
   }
 
-  .bouton {
+.bouton, a {
     background-color: none;
   border: none;
   color: black;
@@ -30,7 +30,10 @@ nav {
   margin: 4px 2px;
   cursor: pointer;
   }
-
+  .hebergement:hover, .activites:hover {
+    border-top: 3px #0065FC solid;
+    color: #0065FC;
+}
 .fa-solid {
     color: var(--main-color);
 }
