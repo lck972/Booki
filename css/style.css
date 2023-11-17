@@ -16,16 +16,16 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 40px;
   }
 
-.bouton, a {
+.bouton, .activites, .hebergement {
   background-color: none;
   border: none;
   color: black;
-  padding: 15px 32px;
-  text-align: center;
+  gap: 68px;
   text-decoration: none;
-  display: inline-block;
+  display:flex ;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
@@ -76,6 +76,7 @@ form {
     order: 1;
     flex-grow: 0;
     z-index: 1;
+    margin-top: 50px;
 
    }
    label {
@@ -187,10 +188,13 @@ form {
     border-radius: 20px;
     padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    width: 90%;
+    margin: 10px;
 }
 
 .card img {
     object-fit: cover;
+    
 }
 
 .card-title {
@@ -223,6 +227,56 @@ form {
     width: 65%;
 }
 
+.hebergements-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.hebergements-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+.hebergements-cards .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 33px;
+}
+
+.hebergements-cards img {
+    width: 100%;
+    height: 124px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.hebergements-cards .card-content {
+    width: 100%;
+    height: 100px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: content-box;
+}
+
+.hebergements-cards .card-title {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.hebergements-cards .card-subtitle {
+    margin: 0;
+}
+
+.hebergements-cards .card-rating {
+    margin-bottom: 5px;
+}
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -268,7 +322,33 @@ form {
     margin-bottom: 5px;
 }
 
+/* Activités */
 
+.tourisme {
+    width: 100%;
+    
+}
+.tourisme-card {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.tourisme-card img {
+    width: 298px;
+    height: 380px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    background-color: #F2F2F2;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
