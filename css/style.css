@@ -406,6 +406,7 @@ footer {
     .filtre {
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 
     .filtre-title {
@@ -426,6 +427,7 @@ footer {
     .filtreIcons {
         padding-left: 15px;
         padding-right: 15px;
+        gap: 20px;
     }
 
     .hebergements-and-populaires {
@@ -591,6 +593,10 @@ footer {
 
     .filtreIcons {
         width: 39%;
+        padding-left: 10px;
+        padding-right: 10px;
+        gap: 10px;
+        justify-content: flex-start;
     }
 
     .imgInfo {
