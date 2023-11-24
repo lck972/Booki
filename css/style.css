@@ -12,6 +12,7 @@
 body {
     display: flex;
     justify-content: center;
+    max-width: 1440px;
     margin: 0px;
 }
 
@@ -148,7 +149,7 @@ form {
 .filtre {
     display: flex;
     align-items: center;
-    width: 75%;
+    width: 100%;
     gap: 15px;
 }
 
@@ -264,6 +265,11 @@ form {
     justify-content: center;
     gap: 30px;
 }
+
+.hebergements-cards a {
+    width: 100%;
+}
+
 .hebergements-cards .card {
     display: flex;
     flex-direction: column;
