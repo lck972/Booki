@@ -1,6 +1,7 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    
 }
 
 :root {
@@ -10,10 +11,8 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
     max-width: 1440px;
-    margin: 0px;
+    margin: auto;
 }
 
 .main-container {
@@ -261,7 +260,7 @@ form {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 30px;
+    gap: 5px;
 }
 
 .hebergements-cards a {
@@ -291,7 +290,7 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    box-sizing: content-box;
+    
 }
 
 .hebergements-cards .card-title {
@@ -490,10 +489,8 @@ footer {
     /* ... */
 
     body {
-        display: flex;
-        justify-content: center;
-        margin: 0px;
-        
+        margin: auto;
+        width: 100%; 
     }
 
     main {
@@ -578,7 +575,7 @@ footer {
     }
 
     form {
-        padding-left: 20px;
+        justify-content: center;
         margin-top: 30px;
     }
 
@@ -667,9 +664,7 @@ footer {
         flex-direction: column;
     }
 
-    .tourisme {
-        padding-left: 10px;
-    }
+   
 
     footer {
         flex-direction: column;
