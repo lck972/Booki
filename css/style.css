@@ -39,7 +39,6 @@ nav {
   }
 
 .bouton {
-  background-color: none;
   border: none;
   color: black;
   gap: 68px;
@@ -49,7 +48,6 @@ nav {
   cursor: pointer;
   }
 .activites, .hebergement {
-  background-color: none;
   border: none;
   color: black;
   gap: 68px;
