@@ -60,7 +60,6 @@ nav {
   .logoHeader {
     width: 61px;
     height: 19px;
-    padding-top: 30px;
   }
 
   .hebergement:hover, .activites:hover {
@@ -96,11 +95,12 @@ form {
    width: 50px;
    height: 49px;
    }
-   img.pointer {
-    display: block;
+   label i.fa-solid  {
+    display: flex;
     margin: auto;
     padding-top: 15px;
-    
+    justify-content: center;
+    color: black;
    }
    
    input {
@@ -137,7 +137,7 @@ form {
    
    }
 
-   .logoSearch {
+   button .fa-solid  {
     display: none;
    }
 
@@ -165,7 +165,7 @@ form {
     font-size: 17px;
     line-height: 21px;
     text-align: center;
-    cursor: url("/images/logo/Vector\ \(1\).png "), auto;
+    cursor: pointer;
 }
 
 .filtreIcons:hover {
@@ -192,13 +192,14 @@ form {
 
 }
 
-.imgInfo {
+.infobar .fa-solid {
     width: 24px;
     height: 24px;
     border: 2px solid #D9D9D9 ;
     border-radius: 25px;
     object-fit: none;
-    
+    display: flex;
+    justify-content: center;
 }
 
 .section-title {
@@ -566,8 +567,9 @@ footer {
         padding-left: 20px;
     }
 
-    .logoSearch {
+    button .fa-solid {
         display: flex;
+        color: white;
     }
 
     .search {
@@ -598,6 +600,7 @@ footer {
         padding-right: 10px;
         gap: 10px;
         justify-content: flex-start;
+        font-size: 14px
     }
 
     .imgInfo {
